@@ -12,6 +12,10 @@ namespace Zalicz_2_termin
                 string pin;
                 Console.WriteLine("Podaj PIN:");
                 pin = Console.ReadLine();
+            if(pin=="1234")
+            {
+                Console.WriteLine("Witaj");
+            }
                 
             }
 
